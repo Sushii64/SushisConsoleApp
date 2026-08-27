@@ -2,7 +2,9 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
     <Name Package="Console App (Better)" ID="2320" />
-    <Description Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="2321" />
+    <Description Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="2321">A ConsoleApp, but with some helper functions to make your life mildly easier.
+
+SushisConsoleApp version 1.5</Description>
     <Icon Package="{FAE04EC1-301F-11d3-BF4B-00C04F79EFBC}" ID="4548" />
     <TemplateID>Sushii64.Microsoft.CSharp.ConsoleApplication</TemplateID>
     <ProjectType>CSharp</ProjectType>

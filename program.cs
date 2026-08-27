@@ -6,7 +6,7 @@ namespace $safeprojectname$
     {
         static void Main(string[] args)
         {
-            // sushi's consoleapp version 1.3
+            // sushi's consoleapp version 1.4
             Helpers.Pause();
         }
     }
