@@ -53,15 +53,17 @@ namespace $safeprojectname$
     /// <returns>
     /// the string that the user input
     /// </returns>
-    public static int ReadString(string prompt)
+    public static string ReadString(string prompt)
     {
         bool valid = false;
-        string str;
+        string str = "";
         while (!valid)
         {
             Console.Write(prompt);
-            string str = Console.ReadLine();
-            if (str != "" || !str) { WriteError("Invalid string!"); } else {
+            str = Console.ReadLine();
+            if (str != "" || str != null) { WriteError("Invalid string!"); }
+            else
+            {
                 break;
             }
         }
