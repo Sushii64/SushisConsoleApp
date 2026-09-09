@@ -232,7 +232,7 @@ namespace $safeprojectname$
             i++;
             Console.WriteLine($"{i}: {option}");
         }
-        ReadInt(out int choice, "Select an option: ", options.Length, 1);
+        int choice = ReadInt(out choice, "Select an option: ", 1, options.Length);
         return choice - 1;
     }
 
